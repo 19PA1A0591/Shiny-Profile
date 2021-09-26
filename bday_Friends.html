@@ -51,26 +51,40 @@
     </style>
   </head>
   <body>
-    <p>#Best Friends Forever#</p>
-    <figure>
-      <img class="ChocolateShake" src="chocolateShake.jpeg" alt="chocolate Shake">
-      <figcaption><b>Chocolate Shake</b></figcaption>
-    </figure>
-    <figure class="friends-1">
-      <img src="friends_1.jpeg" alt="Friends pic 1">
-      <figcaption><b>party mood</b></figcaption>
-    </figure>
-    <figure>
-      <img class="Friends_5" src="Friends_5.jpeg" alt="friends 5">
-      <figcaption><b>Three monkeys🐒</b></figcaption>
-    </figure>
-    <figure>
-      <img class="Image11" src="img_11.jpeg" alt="image 11">
-      <figcaption><b># BFF #</b></figcaption>
-    </figure>
-    <figure>
-      <img class="Friends_3" src="Friends_3.jpeg" alt="friends 3">
-      <figcaption><b># BFF #</b></figcaption>
-    </figure>
+    <div id="shiny">
+      <p>#Best Friends Forever#</p>
+      <figure>
+        <img class="ChocolateShake" src="chocolateShake.jpeg" alt="chocolate Shake">
+        <figcaption><b>Chocolate Shake</b></figcaption>
+      </figure>
+      <figure class="friends-1">
+        <img src="friends_1.jpeg" alt="Friends pic 1">
+        <figcaption><b>party mood</b></figcaption>
+      </figure>
+      <figure>
+        <img class="Friends_5" src="Friends_5.jpeg" alt="friends 5">
+        <figcaption><b>Three monkeys🐒</b></figcaption>
+      </figure>
+      <figure>
+        <img class="Image11" src="img_11.jpeg" alt="image 11">
+        <figcaption><b># BFF #</b></figcaption>
+      </figure>
+      <figure>
+        <img class="Friends_3" src="Friends_3.jpeg" alt="friends 3">
+        <figcaption><b># BFF #</b></figcaption>
+      </figure>
+      <figure>
+        <img class="Friends_6" src="Friends_6.jpeg" alt="friends 6">
+        <figcaption><b># BFF #</b></figcaption>
+      </figure>
+    </div>
+    <script type="text/javascript">
+    const name1="nagaraju";
+    const a=prompt(`Hi this is ${name1} and what is your name:`);
+    // console.log(`hello ${a} how are you`);
+    if (a!="ShinyFriends"){
+      document.getElementById("shiny").innerHTML=`<h1 style="color:white; font-size:50px; background:teal">hello <u style="color:yellow">${a}</u> you have no access to open this file </h1>`
+    }
+    </script>
   </body>
 </html>

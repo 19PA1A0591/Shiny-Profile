@@ -44,21 +44,35 @@
     </style>
   </head>
   <body>
-    <p>
-      Hello Shiny here are your videos
-      </p>
-      <div class="video3">
-        <h2>Birthday Video</h2>
-        <iframe src="Shiny_bdayVideo.mp4" width="500px" height="500px"></iframe>
-      </div>
-      <div class="video1">
-        <h2>Birthday video</h2>
-          <iframe src="HappyBday_video.mp4" width="500px" height="500px"></iframe>
-      </div>
-      <div class="video2">
-        <h2>Funny Video</h2>
-        <iframe src="Funny_video.mp4" width="500px" height="500px"></iframe>
-      </div>
+    <div id="shiny">
+      <p>
+        Hello Shiny here are your videos
+        </p>
+        <div class="video3">
+          <h2>Birthday Video</h2>
+          <iframe src="Shiny_bdayVideo.mp4" width="500px" height="500px"></iframe>
+        </div>
+        <div class="video1">
+          <h2>Birthday video</h2>
+            <iframe src="HappyBday_video.mp4" width="500px" height="500px"></iframe>
+        </div>
+        <div class="video4">
+          <h2>Maa chelli tho video mamooluga undadhu😜</h2>
+          <iframe src="Chelli-shiny_video.mp4" width="500px" height="500px"></iframe>
+        </div>
+        <div class="video2">
+          <h2>Funny Video</h2>
+          <iframe src="Funny_video.mp4" width="500px" height="500px"></iframe>
+        </div>
+    </div>
+      <script type="text/javascript">
+      const name1="nagaraju";
+      const a=prompt(`Hi this is ${name1} and what is your name:`);
+      // console.log(`hello ${a} how are you`);
+      if (a!="ShinyVideos"){
+        document.getElementById("shiny").innerHTML=`<h1 style="color:white; font-size:50px; background:teal">hello <u style="color:yellow">${a}</u> you have no access to open this file </h1>`
+      }
+      </script>
 
   </body>
 </html>

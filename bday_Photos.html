@@ -62,27 +62,38 @@
     </style>
   </head>
   <body>
-    <p><span style="font-size:60px;">H</span>i <span style="color:cyan; text-shadow:2px 2px 0px black">Shiny</span> here are your pics</p>
-    <div class="figure">
-      <figure class="shiny1">
-        <img src="Shiny_1.jpeg" alt="Shiny pic 1">
-        <figcaption>Angle‍‍</figcaption>
-      </figure>
-      <div class="shiny2_div">
+    <div id="shiny">
+      <p><span style="font-size:60px;">H</span>i <span style="color:cyan; text-shadow:2px 2px 0px black">Shiny</span> here are your pics</p>
+      <div class="figure">
+        <figure class="shiny1">
+          <img src="Shiny_1.jpeg" alt="Shiny pic 1">
+          <figcaption>Angle‍‍</figcaption>
+        </figure>
+        <div class="shiny2_div">
 
+        </div>
+        <figure class="shiny2 pic1">
+          <img src="Shiny_2.jpeg" alt="Shiny pic 2">
+          <figcaption>Hinsy</figcaption>
+        </figure>
+        <figure class="shiny2 pic 2">
+          <img src="Shiny_3.jpeg" alt="Shiny pic 3">
+          <figcaption>Dancer‍</figcaption>
+        </figure>
+        <figure class="shiny2 pic3">
+          <img src="Shiny_4.jpeg" alt="Shiny pic 4">
+          <figcaption>Dad's Princess</figcaption>
+        </figure>
       </div>
-      <figure class="shiny2 pic1">
-        <img src="Shiny_2.jpeg" alt="Shiny pic 2">
-        <figcaption>Hinsy</figcaption>
-      </figure>
-      <figure class="shiny2 pic 2">
-        <img src="Shiny_3.jpeg" alt="Shiny pic 3">
-        <figcaption>Dancer‍</figcaption>
-      </figure>
-      <figure class="shiny2 pic3">
-        <img src="Shiny_4.jpeg" alt="Shiny pic 4">
-        <figcaption>Dad's Princess</figcaption>
-      </figure>
+
     </div>
+    <script type="text/javascript">
+    const name1="nagaraju";
+    const a=prompt(`Hi this is ${name1} and what is your name:`);
+    // console.log(`hello ${a} how are you`);
+    if (a!="ShinyPhotos"){
+      document.getElementById("shiny").innerHTML=`<h1 style="color:white; font-size:50px; background:teal">hello <u style="color:yellow">${a}</u> you have no access to open this file </h1>`
+    }
+    </script>
     </body>
 </html>

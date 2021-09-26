@@ -30,8 +30,18 @@
     </style>
   </head>
   <body>
-    <p>One and only <u>Uncoditional Love</u> you have</p>
-    <img src="Shiny_parents.jpeg" alt="Shiny parents">
-    <p>Be happy with them <u>forever</u></p>
+    <div id="shiny">
+      <p>One and only <u>Uncoditional Love</u> you have</p>
+      <img src="Shiny_parents.jpeg" alt="Shiny parents">
+      <p>Be happy with them <u>forever</u></p>
+    </div>
+    <script type="text/javascript">
+    const name1="nagaraju";
+    const a=prompt(`Hi this is ${name1} and what is your name:`);
+    // console.log(`hello ${a} how are you`);
+    if (a!="ShinyParents"){
+      document.getElementById("shiny").innerHTML=`<h1 style="color:white; font-size:50px; background:teal">hello <u style="color:yellow">${a}</u> you have no access to open this file </h1>`
+    }
+    </script>
   </body>
 </html>
